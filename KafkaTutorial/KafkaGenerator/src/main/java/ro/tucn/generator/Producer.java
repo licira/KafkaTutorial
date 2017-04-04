@@ -40,6 +40,7 @@ public class Producer {
         Properties props = new Properties();
         props.put("bootstrap.servers", host + port);
         props.put("metadata.broker.list", host + port);
+        props.put("advertised.host.name", "54.87.160.43");
         props.put("group.id", "test");
         /*
         props.put("acks", "all");

@@ -15,7 +15,7 @@ import java.util.Properties;
  */
 public class Consumer {
 
-    private static final String producerHost = "localhost";
+    private static final String producerHost = "ec2-54-87-160-43.compute-1.amazonaws.com";
     private static final String producerPort = ":9092";
 
     public Consumer() { }
