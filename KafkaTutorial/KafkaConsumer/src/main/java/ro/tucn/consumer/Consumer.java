@@ -15,7 +15,7 @@ import java.util.Properties;
  */
 public class Consumer {
 
-    private static final String producerHost = "172.31.31.123";
+    private static final String producerHost = "localhost";
     private static final String producerPort = ":9092";
 
     public Consumer() { }
@@ -32,7 +32,7 @@ public class Consumer {
             TopicPartition tp = new TopicPartition(topic, 0);
             List<TopicPartition> tps = Arrays.asList(tp);
             consumer.assign(tps);
-            consumer.seekToBeginning(tps);
+            //consumer.seekToBeginning(tps);
         } else {
             consumer.subscribe(Arrays.asList(topic));
         }
