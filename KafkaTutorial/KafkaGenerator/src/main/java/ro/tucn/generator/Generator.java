@@ -5,6 +5,8 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 
 import java.util.Properties;
 
+import static ro.tucn.generator.Producer.*;
+
 /**
  * abstract class of data generator
  * Created by jun on 08/01/16.

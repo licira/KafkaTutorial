@@ -11,13 +11,14 @@ import java.io.InputStreamReader;
 import java.util.Map;
 import java.util.Properties;
 
+import java.net.InetAddress;
 /**
  * Created by Liviu on 4/1/2017.
  */
 public class Producer {
 
-    private static final String host = "172.31.31.123";
-    private static final String port = ":9092";
+    private static String host = "localhost";
+    private static String port = ":9092";
 
     public Producer() { }
 
