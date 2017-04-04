@@ -17,7 +17,7 @@ import java.net.InetAddress;
  */
 public class Producer {
 
-    private static String host = "localhost";
+    private static String host = "54.87.160.43";
     private static String port = ":9092";
 
     public Producer() { }
@@ -39,8 +39,8 @@ public class Producer {
     public static Properties getProducerProperties() {
         Properties props = new Properties();
         props.put("bootstrap.servers", host + port);
-        props.put("metadata.broker.list", host + port);
-        props.put("advertised.host.name", "54.87.160.43");
+        props.put("broker.list", "54.87.160.43" + port);
+        props.put("advertised.host.name", "172.31.31.123");
         props.put("group.id", "test");
         /*
         props.put("acks", "all");
