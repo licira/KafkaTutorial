@@ -27,7 +27,7 @@ public class Consumer {
 
         String topic = "test";
 
-        boolean assign = false;
+        boolean assign = true;
         if(assign) {
             TopicPartition tp = new TopicPartition(topic, 0);
             List<TopicPartition> tps = Arrays.asList(tp);
