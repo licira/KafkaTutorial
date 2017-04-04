@@ -15,7 +15,8 @@ import java.util.Properties;
  */
 public class Consumer {
 
-    private static final String producerHost = "ec2-54-87-160-43.compute-1.amazonaws.com";
+    //The producerHost can either be the public ip or the public DNS
+    private static final String producerHost = "54.87.160.43";
     private static final String producerPort = ":9092";
 
     public Consumer() { }
