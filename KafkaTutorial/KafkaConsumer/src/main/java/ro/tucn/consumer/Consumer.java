@@ -3,6 +3,7 @@ package ro.tucn.consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.apache.kafka.common.TopicPartition;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,7 +26,16 @@ public class Consumer {
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
 
         String topic = "test";
-        consumer.subscribe(Arrays.asList(topic));
+
+        boolean assign = false;
+        if(assign) {
+            TopicPartition tp = new TopicPartition(topic, 0);
+            List<TopicPartition> tps = Arrays.asList(tp);
+            consumer.assign(tps);
+            consumer.seekToBeginning(tps);
+        }else {
+            consumer.subscribe(Arrays.asList(topic));
+        }
 
         while (true) {
             ConsumerRecords<String, String> records = consumer.poll(100);
