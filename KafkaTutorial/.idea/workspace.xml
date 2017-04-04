@@ -46,8 +46,8 @@
       <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KafkaConsumer/src/main/java/ro/tucn/consumer/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="284">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding>
                 <element signature="e#709#725#0" expanded="true" />
               </folding>
@@ -792,8 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/KafkaConsumer/src/main/java/ro/tucn/consumer/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="284">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding>
             <element signature="e#709#725#0" expanded="true" />
           </folding>

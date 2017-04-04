@@ -33,7 +33,7 @@ public class Consumer {
             List<TopicPartition> tps = Arrays.asList(tp);
             consumer.assign(tps);
             consumer.seekToBeginning(tps);
-        }else {
+        } else {
             consumer.subscribe(Arrays.asList(topic));
         }
 
