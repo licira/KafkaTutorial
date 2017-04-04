@@ -30,6 +30,7 @@
       <module name="kafka.consumer" target="1.5" />
       <module name="kafka.generator" target="1.5" />
       <module name="KafkaTutorial" target="1.5" />
+      <module name="org.kafka.tutorial" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

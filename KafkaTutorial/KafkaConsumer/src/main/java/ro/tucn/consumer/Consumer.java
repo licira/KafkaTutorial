@@ -46,7 +46,7 @@ public class Consumer {
 
     public static Properties getConsumerProperties() {
         Properties props = new Properties();
-        props.put("bootstrap.servers", producerHost + producerPort);
+        props.put("zookeeper.connect", producerHost + producerPort);
         props.put("group.id", "test");
         //props.put("enable.auto.commit", "true");
         props.put("auto.commit.interval.ms", "1000");
