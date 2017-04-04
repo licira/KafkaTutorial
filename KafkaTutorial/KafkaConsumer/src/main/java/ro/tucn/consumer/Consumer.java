@@ -15,7 +15,7 @@ import java.util.Properties;
  */
 public class Consumer {
 
-    private static final String producerHost = "54.87.160.43";
+    private static final String producerHost = "172.31.31.123";
     private static final String producerPort = ":9092";
 
     public Consumer() { }
@@ -46,7 +46,7 @@ public class Consumer {
 
     public static Properties getConsumerProperties() {
         Properties props = new Properties();
-        props.put("zookeeper.connect", producerHost + producerPort);
+        props.put("bootstrap.servers", producerHost + producerPort);
         props.put("group.id", "test");
         //props.put("enable.auto.commit", "true");
         props.put("auto.commit.interval.ms", "1000");
