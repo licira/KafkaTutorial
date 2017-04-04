@@ -15,7 +15,7 @@ import java.util.Properties;
  */
 public class Consumer {
 
-    private static final String producerHost = "localhost";
+    private static final String producerHost = "172.31.31.123";
     private static final String producerPort = ":9092";
 
     public Consumer() { }
