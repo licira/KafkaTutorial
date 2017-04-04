@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KafkaGenerator/src/main/java/ro/tucn/generator/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -46,14 +46,14 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KafkaGenerator/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="184">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KafkaConsumer/src/main/java/ro/tucn/consumer/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -76,11 +76,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/KafkaGenerator/src/main/java/ro/tucn/generator/Application.java" />
-        <option value="$PROJECT_DIR$/KafkaGenerator/src/main/java/ro/tucn/generator/Producer.java" />
         <option value="$PROJECT_DIR$/KafkaConsumer/src/main/java/ro/tucn/consumer/Application.java" />
         <option value="$PROJECT_DIR$/KafkaConsumer/pom.xml" />
         <option value="$PROJECT_DIR$/KafkaGenerator/pom.xml" />
         <option value="$PROJECT_DIR$/KafkaConsumer/src/main/java/ro/tucn/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/KafkaGenerator/src/main/java/ro/tucn/generator/Producer.java" />
       </list>
     </option>
   </component>
@@ -783,22 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaGenerator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KafkaGenerator/src/main/java/ro/tucn/generator/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.0/kafka-clients-0.10.1.0.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -814,6 +798,22 @@
           <folding>
             <element signature="e#709#725#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaGenerator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaGenerator/src/main/java/ro/tucn/generator/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
